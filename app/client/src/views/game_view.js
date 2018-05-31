@@ -97,7 +97,7 @@ GameView.prototype.askForPlayerChoiceKing = function (holderPlayer, playerArray,
     }
   }
   if (activePlayersNonProtected.length === 1)  {
-    setBespokeTextInMessageBox(`You can't choose anyother players </br> All other players are either protected by the Handmaid or no longer active this round`);
+    setBespokeTextInMessageBox(`You can't choose any other players </br> All other players are either protected by the Handmaid or no longer active this round`);
     endOfGoFunctions();
   } else {
     setTextInMessageBoxUponCardClick("King");
